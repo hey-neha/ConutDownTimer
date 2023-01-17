@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image_container{
+    height: 600px;
+    width: 1260px;
+    background-image: url('./image/university2.jpg');
+    background-size: cover;
+    background-position: center;
+     position: fixed;
+} 
+.overlay{
+    height: 600px;
+    width: 1300px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    color: white;
+    flex-direction: column;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.overlay h2 ,h3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.text_width{
+    height: 150px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+
+.text1 input{
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 0px 10px;
+    /* margin-bottom: 30px;  */
+    
+    /* display: inline-block; */
+    font-size: 18px;
+    border-radius: 6px; 
+       
+}  
+.text1 label{
+    margin-left: 20px;
+}
